@@ -11,7 +11,6 @@ namespace CityInfo.Modules.ParentalFacilities
         public void AddDomainServices(IServiceCollection services)
         {
             services.AddScoped<IParentalFacilityMapper, ParentalFacilityMapper>();
-            services.AddScoped<ISearchParentalFacilitiesMapper, SearchParentalFacilitiesMapper>();
         }
 
         public void AddResourceAccess(IServiceCollection services, IHostingEnvironment environment)
