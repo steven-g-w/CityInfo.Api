@@ -7,7 +7,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CityInfo.Api.Common\CityInfo.Api.Common.csproj" />
+    <ProjectReference Include="..\CityInfo.Modules.ParentalFacilities\CityInfo.Modules.ParentalFacilities.csproj" />
   </ItemGroup>
 
 </Project>
